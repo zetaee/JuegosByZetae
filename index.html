@@ -17,153 +17,135 @@
       color: #ffff00;
       text-shadow: 0 0 10px #ffff00, 0 0 20px #ffaa00, 0 0 40px #ffdd00;
       font-size: 2.5em;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
-    .clave {
-      color: #ff3333;
-      font-size: 1.8em;
-      font-weight: bold;
-      text-shadow: 0 0 10px red, 0 0 20px darkred;
-      margin-bottom: 30px;
-    }
-
-    p {
+    .sub {
       font-size: 1.2em;
-      max-width: 700px;
-      margin: 0 auto 30px;
-      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .game {
+      margin-bottom: 60px;
+    }
+
+    img {
+      max-width: 90%;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #ffaa00;
+      margin: 20px auto;
+    }
+
+    .download-button {
+      background-color: #00c3ff;
+      color: black;
+      font-weight: bold;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+      box-shadow: 0 0 10px #00c3ff;
+    }
+
+    .info-line {
+      color: red;
+      font-size: 0.95em;
+      text-shadow: 0 0 5px red;
+      margin-top: 5px;
+    }
+
+    .upcoming {
+      color: #00ffff;
+      font-weight: bold;
+      font-size: 1.1em;
+      text-shadow: 0 0 8px #00ffff;
+      margin-top: 60px;
     }
 
     .credit {
       color: #ffff00;
       font-size: 1em;
-      margin-top: 40px;
+      margin-top: 30px;
       text-shadow: 0 0 5px yellow;
     }
 
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 15px;
-      margin: 20px 0;
-      box-shadow: 0 0 15px #ffaa00;
-    }
-
-    .juego {
-      margin-top: 50px;
-      background: #111;
-      padding: 25px 20px;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 15px;
-      box-shadow: 0 0 20px #00bfff;
-    }
-
-    .juego h2 {
-      color: #00bfff;
-      margin-bottom: 15px;
-      font-size: 2em;
-      text-shadow: 0 0 10px #00bfff;
-    }
-
-    .juego p {
-      color: #cceeff;
-      font-size: 1.1em;
-      margin-bottom: 5px;
-    }
-
-    .juego .info {
-      color: #ff3300;
-      font-size: 0.8em;
-      font-weight: bold;
-      text-shadow: 0 0 8px #ff3300;
-      margin-bottom: 5px;
-    }
-
-    .juego a.button-download {
-      display: inline-block;
-      background-color: #00bfff;
-      color: black;
-      padding: 12px 30px;
-      font-weight: bold;
-      font-size: 1.1em;
-      border-radius: 12px;
-      text-decoration: none;
-      box-shadow: 0 0 15px #00bfff;
-      transition: background-color 0.3s ease;
-      margin-top: 15px;
-    }
-
-    .juego a.button-download:hover {
-      background-color: #0099cc;
-      box-shadow: 0 0 25px #0099cc;
+    .eye-counter {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 999;
+      font-size: 1.2em;
       color: white;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 5px 10px;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
-  <div class="clave">CONTRASEÑA DE LOS .ZIP PARA EXTRAER : zetae25</div>
 
-  <img src="gamer-anime.png" alt="Jugador anime" />
+  <!-- 👁️ Contador de visitas -->
+  <div class="eye-counter">
+    👁️
+    <img src="https://hitwebcounter.com/counter/counter.php?page=8800147&style=0006&nbdigits=5&type=page&initCount=0" alt="contador de visitas" />
+  </div>
 
-  <h1>Bienvenidos a los juegos de ZETAE</h1>
+  <h1>CONTRASEÑA DE LOS .ZIP PARA EXTRAER : zetae25</h1>
 
-  <p>
-    Estos juegos son subidos por <strong>ZETAE</strong>. No son juegos propios ni desarrollados por mí. Simplemente son archivos APK que muchas personas no pueden conseguir fácilmente.
-  </p>
+  <h2 style="color:#ffff00; text-shadow: 0 0 10px #ffff00, 0 0 20px #ffaa00;">Bienvenidos a los juegos de ZETAE</h2>
 
-  <p>
+  <p class="sub">
+    Estos juegos son subidos por <strong>ZETAE</strong>. No son juegos propios ni desarrollados por mí. Simplemente son archivos APK que muchas personas no pueden conseguir fácilmente.<br><br>
     Todos los archivos están verificados y limpios, <strong>sin virus ni modificaciones maliciosas</strong>. Disfrutalos con tranquilidad.
   </p>
 
   <!-- SCORE HERO -->
-  <div class="juego">
-    <h2>SCORE HERO</h2>
+  <div class="game">
+    <h3>SCORE HERO</h3>
     <img src="Score-Hero.png" alt="Score Hero" />
-    <p>Disfruta de Score Hero, un juego de fútbol con niveles desafiantes donde controlarás las mejores jugadas y goles. ¡Demuestra tu habilidad y lleva a tu equipo a la victoria!</p>
-    <div class="info">PESO : 155 MB</div>
-    <div class="info">VERSIÓN 4.040</div>
-    <div class="info">ACTUALIZACIÓN 29 DE MAYO DEL 2025</div>
-    <a href="https://www.mediafire.com/file/6lttg8v4kgw3qcy/scorehero.zip/file" target="_blank" class="button-download">DESCARGAR POR MEDIAFIRE</a>
+    <p class="info-line">PESO: 155 MB</p>
+    <p class="info-line">VERSIÓN: 4.040</p>
+    <p class="info-line">ACTUALIZACIÓN: 29 DE MAYO DEL 2025</p>
+    <a class="download-button" href="https://www.mediafire.com/file/6lttg8v4kgw3qcy/scorehero.zip/file" target="_blank">DESCARGAR POR MEDIAFIRE</a>
   </div>
 
   <!-- GTA SAN ANDREAS -->
-  <div class="juego">
-    <h2>GTA SAN ANDREAS</h2>
+  <div class="game">
+    <h3>GTA SAN ANDREAS</h3>
     <img src="Gta-Sa.png" alt="GTA San Andreas" />
-    <p>Reviví las calles de Los Santos con CJ en uno de los juegos más icónicos del mundo abierto. Misiones, libertad total y nostalgia pura en tu móvil.</p>
-    <div class="info">PESO : 1.81 GB</div>
-    <div class="info">VERSIÓN 2.11.277</div>
-    <div class="info">ACTUALIZACIÓN 11 DE MARZO DEL 2025</div>
-    <a href="https://www.mediafire.com/file/v3iak4a6ga4o5as/gtasa.zip/file" target="_blank" class="button-download">DESCARGAR POR MEDIAFIRE</a>
+    <p class="info-line">PESO: 1.81 GB</p>
+    <p class="info-line">VERSIÓN: 2.11.277</p>
+    <p class="info-line">ACTUALIZACIÓN: 11 DE MARZO DEL 2025</p>
+    <a class="download-button" href="https://www.mediafire.com/file/v3iak4a6ga4o5as/gtasa.zip/file" target="_blank">DESCARGAR POR MEDIAFIRE</a>
   </div>
 
-<!-- FC MOBILE -->
-<div class="juego">
-  <h2>FC MOBILE</h2>
-  <img src="fc.png" alt="FC Mobile" />
-  <p>EA Sports FC Mobile te lleva al campo con los mejores jugadores y equipos del mundo. Experimentá el fútbol con gráficos realistas y eventos semanales.</p>
-  <div class="info">PESO : 124 MB</div>
-  <div class="info">VERSIÓN 25.0.02</div>
-  <div class="info">ACTUALIZACIÓN 23 DE MAYO DEL 2025</div>
-  <a href="https://www.mediafire.com/file/dpv78vx2uq9mutg/fcmobile.zip/file" target="_blank" class="button-download">DESCARGAR POR MEDIAFIRE</a>
-</div>
+  <!-- FC MOBILE -->
+  <div class="game">
+    <h3>FC MOBILE</h3>
+    <img src="fc.png" alt="FC Mobile" />
+    <p class="info-line">PESO: 124 MB</p>
+    <p class="info-line">VERSIÓN: 25.0.02</p>
+    <p class="info-line">ACTUALIZACIÓN: 23 DE MAYO DEL 2025</p>
+    <a class="download-button" href="https://www.mediafire.com/file/dpv78vx2uq9mutg/fcmobile.zip/file" target="_blank">DESCARGAR POR MEDIAFIRE</a>
+  </div>
 
-<!-- PLANTS VS ZOMBIES -->
-<div class="juego">
-  <h2>PLANTS VS ZOMBIES</h2>
-  <img src="pvz.png" alt="Plants vs Zombies" />
-  <p>Defendé tu casa con plantas únicas en esta divertida batalla contra hordas de zombis. Un clásico de estrategia y acción que no puede faltar en tu colección.</p>
-  <div class="info">PESO : 101 MB</div>
-  <div class="info">VERSIÓN 3.8.1</div>
-  <div class="info">ACTUALIZACIÓN 3 DE ENERO DEL 2025</div>
-  <a href="https://www.mediafire.com/file/0vzag05rlj2id60/PVZ.zip/file" class="button-download">DESCARGAR POR MEDIAFIRE</a>
-</div>
+  <!-- PLANTS VS ZOMBIES -->
+  <div class="game">
+    <h3>PLANTS VS ZOMBIES</h3>
+    <img src="pvz.png" alt="Plants vs Zombies" />
+    <p class="info-line">PESO: 101 MB</p>
+    <p class="info-line">VERSIÓN: 3.8.1</p>
+    <p class="info-line">ACTUALIZACIÓN: 3 DE ENERO DEL 2025</p>
+    <a class="download-button" href="https://www.mediafire.com/file/0vzag05rlj2id60/PVZ.zip/file" target="_blank">DESCARGAR POR MEDIAFIRE</a>
+  </div>
 
-  <!-- Contador de visitas con ícono 👁️ -->
-<div style="position: fixed; top: 10px; right: 10px; z-index: 999; font-size: 1.2em; color: white; background: rgba(0,0,0,0.6); padding: 5px 10px; border-radius: 8px;">
-  👁️
-  <img src="https://hitwebcounter.com/counter/counter.php?page=8800147&style=0006&nbdigits=5&type=page&initCount=0" title="Visitas" alt="contador de visitas" style="vertical-align: middle;" />
-</div>
+  <!-- Mensaje de juegos futuros -->
+  <div class="upcoming">PRÓXIMAMENTE MÁS JUEGOS❤️‍🩹</div>
+
+  <!-- Créditos -->
+  <div class="credit">Página creada 16/06/2025</div>
+
+</body>
+  </html>
